@@ -1,15 +1,15 @@
 
-<!-- /!\ Non OCA Context : Set here the badge of your runbot / runboat instance. -->
-[![Pre-commit Status](https://github.com/qrtl/ymd-oca/actions/workflows/pre-commit.yml/badge.svg?branch=16.0)](https://github.com/qrtl/ymd-oca/actions/workflows/pre-commit.yml?query=branch%3A16.0)
-[![Build Status](https://github.com/qrtl/ymd-oca/actions/workflows/test.yml/badge.svg?branch=16.0)](https://github.com/qrtl/ymd-oca/actions/workflows/test.yml?query=branch%3A16.0)
-[![codecov](https://codecov.io/gh/qrtl/ymd-oca/branch/16.0/graph/badge.svg)](https://codecov.io/gh/qrtl/ymd-oca)
-<!-- /!\ Non OCA Context : Set here the badge of your translation instance. -->
+[![Runboat](https://img.shields.io/badge/runboat-Try%20me-875A7B.png)](https://runboat.odoo-community.org/builds?repo=OCA/l10n-japan&target_branch=16.0)
+[![Pre-commit Status](https://github.com/OCA/l10n-japan/actions/workflows/pre-commit.yml/badge.svg?branch=16.0)](https://github.com/OCA/l10n-japan/actions/workflows/pre-commit.yml?query=branch%3A16.0)
+[![Build Status](https://github.com/OCA/l10n-japan/actions/workflows/test.yml/badge.svg?branch=16.0)](https://github.com/OCA/l10n-japan/actions/workflows/test.yml?query=branch%3A16.0)
+[![codecov](https://codecov.io/gh/OCA/l10n-japan/branch/16.0/graph/badge.svg)](https://codecov.io/gh/OCA/l10n-japan)
+[![Translation Status](https://translation.odoo-community.org/widgets/l10n-japan-16-0/-/svg-badge.svg)](https://translation.odoo-community.org/engage/l10n-japan-16-0/?utm_source=widget)
 
 <!-- /!\ do not modify above this line -->
 
-# 
+# l10n-japan
 
-
+TODO: add repo description.
 
 <!-- /!\ do not modify below this line -->
 
@@ -32,4 +32,6 @@ policy. Consult each module's `__manifest__.py` file, which contains a `license`
 that explains its license.
 
 ----
-<!-- /!\ Non OCA Context : Set here the full description of your organization. -->
+OCA, or the [Odoo Community Association](http://odoo-community.org/), is a nonprofit
+organization whose mission is to support the collaborative development of Odoo features
+and promote its widespread use.
