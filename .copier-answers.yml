@@ -1,7 +1,8 @@
 # Do NOT update manually; changes here will be overwritten by Copier
-_commit: v1.16.0
+_commit: v1.17.2
 _src_path: https://github.com/OCA/oca-addons-repo-template.git
 ci: GitHub
+dependency_installation_mode: PIP
 generate_requirements_txt: true
 github_check_license: true
 github_ci_extra_env: {}
@@ -15,8 +16,10 @@ odoo_version: 16.0
 org_name: Odoo Community Association (OCA)
 org_slug: qrtl
 rebel_module_groups: []
-repo_description: ''
-repo_name: ''
+repo_description: OCA Modules
+repo_name: YMD OCA
 repo_slug: ymd-oca
-repo_website: https://www.quartile.co
+repo_website: ''
+travis_apt_packages: []
+travis_apt_sources: []
 
