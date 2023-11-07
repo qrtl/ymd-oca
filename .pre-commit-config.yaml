@@ -12,6 +12,8 @@ exclude: |
   /static/(src/)?lib/|
   # Repos using Sphinx to generate docs don't need prettying
   ^docs/_templates/.*\.html$|
+  # Don't bother non-technical authors with formatting issues in docs
+  readme/.*\.(rst|md)$|
   # You don't usually want a bot to modify your legal texts
   (LICENSE.*|COPYING.*)
 default_language_version:
@@ -37,12 +39,13 @@ repos:
     hooks:
       # update the NOT INSTALLABLE ADDONS section above
       - id: oca-update-pre-commit-excluded-addons
-      # - id: oca-fix-manifest-website
-      #   args: ["https://www.quartile.co"]
+      #- id: oca-fix-manifest-website
+      #  args: [""]
       - id: oca-gen-addon-readme
         args:
           - --addons-dir=.
           - --branch=16.0
+          - --org-name=qrtl
           - --repo-name=ymd-oca
           - --if-source-changed
   - repo: https://github.com/OCA/odoo-pre-commit-hooks
