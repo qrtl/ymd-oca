@@ -16,7 +16,7 @@ odoo_version: 16.0
 org_name: Odoo Community Association (OCA)
 org_slug: qrtl
 rebel_module_groups: []
-repo_description: OCA Modules
+repo_description: ''
 repo_name: YMD OCA
 repo_slug: ymd-oca
 repo_website: ''
