@@ -9,7 +9,7 @@
 
 # YMD OCA
 
-OCA module
+OCA Modules
 
 <!-- /!\ do not modify below this line -->
 
